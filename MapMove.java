@@ -17,7 +17,7 @@ public class MapMove {
                     continue;
                 } else {
                     x = x + dx[idx];
-                    y = x + dx[idx];
+                    y = y + dy[idx];
                 }
                 System.out.println("x : "+ x);
                 System.out.println("y : "+ y);
